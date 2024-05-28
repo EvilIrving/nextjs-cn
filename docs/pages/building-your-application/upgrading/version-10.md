@@ -7,19 +7,19 @@ description: 将您的 Next.js 应用程序从版本 9 升级到版本 10。
 
 要升级到版本 10，请运行以下命令：
 
-```bash filename="终端"
+```bash 
 npm i next@10
 ```
 
-```bash filename="终端"
+```bash 
 yarn add next@10
 ```
 
-```bash filename="终端"
+```bash 
 pnpm up next@10
 ```
 
-```bash filename="终端"
+```bash 
 bun add next@10
 ```
 

@@ -10,7 +10,7 @@ Playwright 是一个测试框架，允许您使用单一 API 自动化 Chromium�
 
 最快的入门方式是使用 `create-next-app` 与 [with-playwright 示例](https://github.com/vercel/next.js/tree/canary/examples/with-playwright)。这将创建一个完整的 Next.js 项目，并配置了 Playwright。
 
-```bash filename="终端"
+```bash 
 npx create-next-app@latest --example with-playwright with-playwright-app
 ```
 
@@ -18,7 +18,7 @@ npx create-next-app@latest --example with-playwright with-playwright-app
 
 要安装 Playwright，请运行以下命令：
 
-```bash filename="终端"
+```bash 
 npm init playwright
 # 或
 yarn create playwright

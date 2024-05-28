@@ -19,7 +19,7 @@ Next.js 提供了以 TypeScript 为首选的开发体验，用于构建您的 Re
 
 `create-next-app` 默认带有 TypeScript。
 
-```bash filename="终端"
+```bash 
 npx create-next-app@latest
 ```
 

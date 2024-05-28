@@ -6,19 +6,19 @@ description: 将您的Next.js应用程序从版本8升级到版本9。
 
 要升级到版本9，请运行以下命令：
 
-```bash filename="终端"
+```bash 
 npm i next@9
 ```
 
-```bash filename="终端"
+```bash 
 yarn add next@9
 ```
 
-```bash filename="终端"
+```bash 
 pnpm up next@9
 ```
 
-```bash filename="终端"
+```bash 
 bun add next@9
 ```
 
@@ -118,7 +118,7 @@ Next.js 现在有了页面级配置的概念，因此 `withAmp` 高阶组件已�
 
 可以通过在 Next.js 项目的根目录下运行以下命令来**自动迁移此变更**：
 
-```bash filename="Terminal"
+```bash 
 curl -L https://github.com/vercel/next-codemod/archive/master.tar.gz | tar -xz --strip=2 next-codemod-master/transforms/withamp-to-config.js npx jscodeshift -t ./withamp-to-config.js pages/**/*.js
 ```
 

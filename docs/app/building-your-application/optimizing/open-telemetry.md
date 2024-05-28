@@ -27,7 +27,7 @@ OpenTelemetry 是可扩展的，但正确设置可能会相当繁琐。
 
 要开始使用，您必须安装 `@vercel/otel`：
 
-```bash filename="终端"
+```bash 
 npm install @vercel/otel
 ```
 
@@ -78,7 +78,7 @@ export function register() {
 
 首先，您需要安装OpenTelemetry包：
 
-```bash filename="终端"
+```bash 
 npm install @opentelemetry/sdk-node @opentelemetry/resources @opentelemetry/semantic-conventions @opentelemetry/sdk-trace-node @opentelemetry/exporter-trace-otlp-http
 ```
 
@@ -174,7 +174,7 @@ OpenTelemetry 收集器并非必需。您可以使用自定义 OpenTelemetry 导
 
 您可以使用 [OpenTelemetry API](https://opentelemetry.io/docs/instrumentation/js/instrumentation) 添加自定义 span。
 
-```bash filename="终端"
+```bash 
 npm install @opentelemetry/api
 ```
 

@@ -18,7 +18,7 @@ description: 学习如何在 Next.js 中设置 Cypress 进行端到端（E2E）�
 
 您可以使用 `create-next-app` 和 [with-cypress 示例](https://github.com/vercel/next.js/tree/canary/examples/with-cypress) 快速开始。
 
-```bash filename="终端"
+```bash 
 npx create-next-app@latest --example with-cypress with-cypress-app
 ```
 
@@ -29,7 +29,7 @@ npx create-next-app@latest --example with-cypress with-cypress-app
 
 要手动设置 Cypress，请将 `cypress` 安装为开发依赖项：
 
-```bash filename="终端"
+```bash 
 npm install -D cypress
 # 或
 yarn add -D cypress
@@ -53,7 +53,7 @@ pnpm install -D cypress
 
 首次运行 Cypress 以打开 Cypress 测试套件：
 
-```bash filename="终端"
+```bash 
 npm run cypress:open
 ```
 

@@ -94,7 +94,7 @@ export default Blog
 
 首先，创建一个只有您的 Next.js 应用知道的密钥令牌。这个密钥将被用来防止未经授权的访问重新验证 API 路由。您可以使用以下 URL 结构手动或通过 Webhook 访问该路由：
 
-```bash filename="终端"
+```bash 
 https://<your-site.com>/api/revalidate?secret=<token>
 ```
 
@@ -126,7 +126,7 @@ export default async function handler(req, res) {
 
 当使用 `next dev` 本地运行时，每个请求都会调用 `getStaticProps`。要验证您的按需 ISR 配置是否正确，您需要创建一个 [生产构建](/docs/pages/api-reference/next-cli#build) 并启动 [生产服务器](/docs/pages/api-reference/next-cli#production)：
 
-```bash filename="终端"
+```bash 
 $ next build
 $ next start
 ```

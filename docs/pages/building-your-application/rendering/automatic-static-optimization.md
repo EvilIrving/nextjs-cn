@@ -31,13 +31,13 @@ Next.js 会自动判断页面是否为静态（可以预渲染），如果页面
 
 `next build` 会为静态优化的页面发出 `.html` 文件。例如，页面 `pages/about.js` 的结果将是：
 
-```bash filename="终端"
+```bash 
 .next/server/pages/about.html
 ```
 
 如果您向页面添加了 `getServerSideProps`，它将变成如下的 JavaScript：
 
-```bash filename="终端"
+```bash 
 .next/server/pages/about.js
 ```
 

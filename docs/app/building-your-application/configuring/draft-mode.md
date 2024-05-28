@@ -48,7 +48,7 @@ export async function GET(request) {
 **其次**，如果你的无头 CMS 支持设置自定义草稿 URL，请将以下内容指定为草稿 URL。这假设你的路由处理器位于 `app/api/draft/route.ts`
 
 
-```bash filename="终端"
+```bash 
 https://<你的站点>/api/draft?secret=<令牌>&slug=<path>
 
 ```
@@ -208,7 +208,7 @@ export default async function Page() {
 
 将此设置为您的无头 CMS 上的草稿 URL 或手动访问，您应该能够看到草稿。
 
-```bash filename="终端"
+```bash 
 https://<your-site>/api/draft?secret=<token>&slug=<path>
 ```
 

@@ -142,7 +142,7 @@ module.exports = {
 
 然后，运行 `next`（通常是 `npm run dev` 或 `yarn dev`），Next.js 将引导您完成安装所需包的步骤：
 
-```bash filename="Terminal"
+```bash 
 npm run dev
 ```
 

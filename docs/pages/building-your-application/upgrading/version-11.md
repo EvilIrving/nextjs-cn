@@ -5,19 +5,19 @@ description: 将您的 Next.js 应用程序从版本 10 升级到版本 11。
 
 要升级到版本 11，请运行以下命令：
 
-```bash filename="终端"
+```bash 
 npm i next@11 react@17 react-dom@17
 ```
 
-```bash filename="终端"
+```bash 
 yarn add next@11 react@17 react-dom@17
 ```
 
-```bash filename="终端"
+```bash 
 pnpm up next@11 react@17 react-dom@17
 ```
 
-```bash filename="终端"
+```bash 
 bun add next@11 react@17 react-dom@17
 ```
 

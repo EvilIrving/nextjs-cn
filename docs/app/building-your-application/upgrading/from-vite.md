@@ -51,7 +51,7 @@ description: 了解如何将现有的 React 应用程序从 Vite 迁移到 Next.
 
 您需要做的第一件事是将 `next` 安装为依赖项：
 
-```bash filename="终端"
+```bash 
 npm install next@latest
 ```
 

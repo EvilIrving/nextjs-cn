@@ -66,7 +66,7 @@
 
 要使用 Chrome DevTools 调试服务器端 Next.js 代码，您需要将 [`--inspect`](https://nodejs.org/api/cli.html#cli_inspect_host_port) 标志传递给底层的 Node.js 进程：
 
-```bash filename="终端"
+```bash 
 NODE_OPTIONS='--inspect' next dev
 ```
 
@@ -82,7 +82,7 @@ NODE_OPTIONS='--inspect' next dev
 
 使用 `--inspect` 标志启动 Next.js 开发服务器看起来像这样：
 
-```bash filename="终端"
+```bash 
 Debugger listening on ws://127.0.0.1:9229/0cf90313-350d-4466-a748-cd60f4e47c95
 For help, see: https://nodejs.org/en/docs/inspector
 ready - started server on 0.0.0.0:3000, url: http://localhost:3000

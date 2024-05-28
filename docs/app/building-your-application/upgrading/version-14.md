@@ -8,19 +8,19 @@ description: 将您的 Next.js 应用程序从版本 13 升级到 14。
 
 要更新到 Next.js 版本 14，请使用您喜欢的包管理器运行以下命令：
 
-```bash filename="终端"
+```bash 
 npm i next@latest react@latest react-dom@latest eslint-config-next@latest
 ```
 
-```bash filename="终端"
+```bash 
 yarn add next@latest react@latest react-dom@latest eslint-config-next@latest
 ```
 
-```bash filename="终端"
+```bash 
 pnpm up next react react-dom eslint-config-next --latest
 ```
 
-```bash filename="终端"
+```bash 
 bun add next@latest react@latest react-dom@latest eslint-config-next@latest
 ```
 

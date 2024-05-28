@@ -8,7 +8,7 @@
 
 要开始使用，请安装 `@next/third-parties` 库：
 
-```bash filename="终端"
+```bash 
 npm install @next/third-parties@latest next@latest
 ```
 

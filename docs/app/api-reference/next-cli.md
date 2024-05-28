@@ -9,13 +9,13 @@ Next.js 命令行界面允许您开发、构建、启动您的应用程序等。
 
 要获取可用的 CLI 命令列表，请在项目目录中运行以下命令：
 
-```bash filename="终端"
+```bash 
 next -h
 ```
 
 输出应该看起来像这样：
 
-```bash filename="终端"
+```bash 
 Usage next [options] [command]
 
 The Next.js CLI allows you to develop, build, start your application, and more.
@@ -36,7 +36,7 @@ Commands:
 
 您可以将任何 [node 参数](https://nodejs.org/api/cli.html#cli_node_options_options) 传递给 `next` 命令：
 
-```bash filename="终端"
+```bash 
 NODE_OPTIONS='--throw-deprecation' next
 NODE_OPTIONS='-r esm' next
 NODE_OPTIONS='--inspect' next
@@ -49,13 +49,13 @@ NODE_OPTIONS='--inspect' next
 
 要获取 `next dev` 可用选项的列表，请在项目目录中运行以下命令：
 
-```bash filename="终端"
+```bash 
 next dev -h
 ```
 
 输出应如下所示：
 
-```bash filename="终端"
+```bash 
 Usage: next dev [directory] [options]
 
 Starts Next.js in development mode with hot-code reloading, error reporting, and more.
@@ -78,13 +78,13 @@ Options:
 
 应用程序将默认在 `http://localhost:3000` 启动。可以使用 `-p` 更改默认端口，如下所示：
 
-```bash filename="终端"
+```bash 
 next dev -p 4000
 ```
 
 或者使用 `PORT` 环境变量：
 
-```bash filename="终端"
+```bash 
 PORT=4000 next dev
 ```
 
@@ -95,7 +95,7 @@ PORT=4000 next dev
 
 您还可以将主机名设置为不同于默认的 `0.0.0.0`，这在使应用程序对网络上的其他设备可用时非常有用。可以使用 `-H` 更改默认主机名，如下所示：
 
-```bash filename="终端"
+```bash 
 next dev -H 192.168.1.2
 ```
 
@@ -105,7 +105,7 @@ next dev -H 192.168.1.2
 
 要在开发模式下使用 Turbopack，请添加 `--turbo` 选项：
 
-```bash filename="终端"
+```bash 
 next dev --turbo
 ```
 
@@ -113,13 +113,13 @@ next dev --turbo
 
 对于某些用例，如 Webhook 或身份验证，可能需要使用 HTTPS 在 `localhost` 上拥有一个安全环境。Next.js 可以按照以下方式使用 `next dev` 生成一个自签名证书：
 
-```bash filename="终端"
+```bash 
 next dev --experimental-https
 ```
 
 您也可以使用 `--experimental-https-key` 和 `--experimental-https-cert` 提供自定义证书和密钥。可选地，您也可以使用 `--experimental-https-ca` 提供自定义 CA 证书。
 
-```bash filename="终端"
+```bash 
 next dev --experimental-https --experimental-https-key ./certificates/localhost-key.pem --experimental-https-cert ./certificates/localhost.pem
 ```
 
@@ -128,7 +128,7 @@ next dev --experimental-https --experimental-https-key ./certificates/localhost-
 
 `next build` 创建您的应用程序的优化生产构建。输出显示了有关每个路由的信息：
 
-```bash filename="Terminal"
+```bash 
 路由 (app)                               大小     首次加载 JS
 ┌ ○ /                                     5.3 kB         89.5 kB
 ├ ○ /_not-found                           885 B          85.1 kB
@@ -149,13 +149,13 @@ next dev --experimental-https --experimental-https-key ./certificates/localhost-
 
 要获取 `next build` 可用选项的列表，请在项目目录中运行以下命令：
 
-```bash filename="Terminal"
+```bash 
 next build -h
 ```
 
 输出应如下所示：
 
-```bash filename="Terminal"
+```bash 
 用法：next build [directory] [options]
 
 创建您的应用程序的优化生产构建。输出显示了有关每个路由的信息。
@@ -179,7 +179,7 @@ next build -h
 
 您可以在 `next build` 中使用 `--debug` 标志启用更详细的构建输出。
 
-```bash filename="Terminal"
+```bash 
 next build --debug
 ```
 
@@ -189,7 +189,7 @@ next build --debug
 
 您可以这样禁用构建的代码检查：
 
-```bash filename="Terminal"
+```bash 
 next build --no-lint
 ```
 
@@ -197,7 +197,7 @@ next build --no-lint
 
 您可以这样禁用构建的 [命名混淆](https://en.wikipedia.org/wiki/Name_mangling)：
 
-```bash filename="Terminal"
+```bash 
 next build --no-mangling
 ```
 
@@ -207,7 +207,7 @@ next build --no-mangling
 
 您可以在 `next build` 中使用 `--profile` 标志启用 React 的生产性能分析。
 
-```bash filename="Terminal"
+```bash 
 next build --profile
 ```
 
@@ -218,13 +218,13 @@ next build --profile
 
 要获取 `next start` 命令的可用选项列表，请在项目目录中运行以下命令：
 
-```bash filename="Terminal"
+```bash 
 next start -h
 ```
 
 输出结果应该如下所示：
 
-```bash filename="Terminal"
+```bash 
 Usage: next start [directory] [options]
 
 Starts Next.js in production mode. The application should be compiled with `next build`
@@ -247,13 +247,13 @@ Options:
 
 默认情况下，应用程序将在 `http://localhost:3000` 上启动。可以使用 `-p` 选项更改默认端口，如下所示：
 
-```bash filename="Terminal"
+```bash 
 next start -p 4000
 ```
 
 或者使用 `PORT` 环境变量：
 
-```bash filename="Terminal"
+```bash 
 PORT=4000 next start
 ```
 
@@ -268,7 +268,7 @@ PORT=4000 next start
 
 要为生产环境中的 Next.js 服务器配置超时值，请将 `--keepAliveTimeout`（以毫秒为单位）传递给 `next start`，如下所示：
 
-```bash filename="Terminal"
+```bash 
 next start --keepAliveTimeout 70000
 ```
 ## 信息
@@ -277,13 +277,13 @@ next start --keepAliveTimeout 70000
 
 要获取 `next info` 可用选项的列表，请在项目目录中运行以下命令：
 
-```bash filename="终端"
+```bash 
 next info -h
 ```
 
 输出应该像这样：
 
-```bash filename="终端"
+```bash 
 Usage: next info [options]
 
 Prints relevant details about the current system which can be used to report Next.js bugs.
@@ -295,7 +295,7 @@ Options:
 
 运行 `next info` 将为您提供如下示例的信息：
 
-```bash filename="终端"
+```bash 
 
 Operating System:
   Platform: linux
@@ -327,7 +327,7 @@ Next.js Config:
 
 要获取 `next lint` 可用选项的列表，请在项目目录中运行以下命令：
 
-```bash filename="终端"
+```bash 
 next lint -h
 
 ```
@@ -368,7 +368,7 @@ next lint -h
 ```
 如果您有其他想要检查的目录，可以使用 `--dir` 标志指定它们：
 
-```bash filename="Terminal"
+```bash 
 next lint --dir utils
 ```
 
@@ -380,13 +380,13 @@ Next.js 收集了关于一般使用情况的**完全匿名**的遥测数据。
 
 要获取 `next telemetry` 可用选项的列表，请在项目目录中运行以下命令：
 
-```bash filename="终端"
+```bash 
 next telemetry -h
 ```
 
 输出应该看起来像这样：
 
-```bash filename="终端"
+```bash 
 用法：next telemetry [选项]
 
 允许你启用或禁用 Next.js 的完全匿名遥测收集。

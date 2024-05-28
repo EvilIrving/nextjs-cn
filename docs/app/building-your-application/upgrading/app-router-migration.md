@@ -16,7 +16,7 @@
 
 要升级到 Next.js 版本 13，请使用您喜欢的包管理器运行以下命令：
 
-```bash filename="终端"
+```bash 
 npm install next@latest react@latest react-dom@latest
 ```
 
@@ -24,7 +24,7 @@ npm install next@latest react@latest react-dom@latest
 
 如果您正在使用 ESLint，则需要升级您的 ESLint 版本：
 
-```bash filename="终端"
+```bash 
 npm install -D eslint-config-next@latest
 ```
 

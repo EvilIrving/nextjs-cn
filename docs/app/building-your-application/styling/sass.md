@@ -8,7 +8,7 @@ title: Sass
 
 首先，安装 [`sass`](https://github.com/sass/sass)：
 
-```bash filename="终端"
+```bash 
 npm install --save-dev sass
 ```
 

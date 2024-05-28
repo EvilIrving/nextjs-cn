@@ -7,19 +7,19 @@ description: 将您的 Next.js 应用程序从版本 12 升级到 13。
 
 要更新到 Next.js 版本 13，请使用您喜欢的包管理器运行以下命令：
 
-```bash filename="终端"
+```bash 
 npm i next@13 react@latest react-dom@latest eslint-config-next@13
 ```
 
-```bash filename="终端"
+```bash 
 yarn add next@13 react@latest react-dom@latest eslint-config-next@13
 ```
 
-```bash filename="终端"
+```bash 
 pnpm i next@13 react@latest react-dom@latest eslint-config-next@13
 ```
 
-```bash filename="终端"
+```bash 
 bun add next@13 react@latest react-dom@latest eslint-config-next@13
 ```
 

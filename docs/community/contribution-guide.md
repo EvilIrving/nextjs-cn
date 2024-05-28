@@ -204,7 +204,7 @@ export default function Page() {
 代码块应该有一个标题，包括语言和`filename`。添加一个`filename`属性以呈现一个特殊的终端图标，帮助用户定位在哪里输入命令。例如：
 
 ````mdx filename="code-example.mdx"
-```bash filename="Terminal"
+```bash 
 npx create-next-app
 ```
 ````

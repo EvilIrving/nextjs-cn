@@ -6,7 +6,7 @@ Partial Prerendering 是一个实验性功能，允许路由的静态部分被�
 
 Partial Prerendering 可在 `next@canary` 中使用：
 
-```bash filename="终端"
+```bash 
 npm install next@canary
 ```
 

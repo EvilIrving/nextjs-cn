@@ -16,13 +16,13 @@ Next.js 提供了一个开箱即用的集成 [ESLint](https://eslint.org/) 体�
 
 然后运行 `npm run lint` 或 `yarn lint`：
 
-```bash filename="Terminal"
+```bash 
 yarn lint
 ```
 
 如果您的应用程序中尚未配置 ESLint，系统将引导您完成安装和配置过程。
 
-```bash filename="Terminal"
+```bash 
 yarn lint
 ```
 
@@ -151,7 +151,7 @@ module.exports = {
 
 类似地，`--dir` 和 `--file` 标志可用于 `next lint` 以检查特定的目录和文件：
 
-```bash filename="Terminal"
+```bash 
 next lint --dir pages --dir utils --file bar.js
 ```
 
@@ -170,7 +170,7 @@ next lint --dir pages --dir utils --file bar.js
 
 </PagesOnly>
 
-```bash filename="Terminal"
+```bash 
 next lint --no-cache
 ```
 
@@ -210,7 +210,7 @@ ESLint 还包含代码格式化规则，这可能与您现有的 [Prettier](http
 
 首先，安装依赖项：
 
-```bash filename="终端"
+```bash 
 npm install --save-dev eslint-config-prettier
 
 yarn add --dev eslint-config-prettier
@@ -272,7 +272,7 @@ module.exports = {
 
 插件可以在您的项目中正常安装，而无需运行 `next lint`：
 
-```bash filename="终端"
+```bash 
 npm install --save-dev @next/eslint-plugin-next
 
 yarn add --dev @next/eslint-plugin-next

@@ -146,7 +146,7 @@ TWITTER_URL=https://twitter.com/$TWITTER_USER
 
 为了使环境变量的值在浏览器中可访问，Next.js 可以在构建时将值“内联”到传递给客户端的 js 包中，将所有对 `process.env.[variable]` 的引用替换为硬编码值。要告诉它这样做，只需将变量前缀为 `NEXT_PUBLIC_`。例如：
 
-```txt filename="终端"
+```txt 
 NEXT_PUBLIC_ANALYTICS_ID=abcdefghijk
 ```
 
@@ -221,7 +221,7 @@ Next.js 允许您在 `.env`（所有环境）、`.env.development`（开发环�
 
 如果您已配置了 [开发环境变量](https://vercel.com/docs/concepts/projects/environment-variables#development-environment-variables?utm_source=next-site&utm_medium=docs&utm_campaign=next-website)，您可以使用以下命令将它们拉取到 `.env.local` 中，以便在本地机器上使用：
 
-```bash filename="终端"
+```bash 
 vercel env pull
 ```
 

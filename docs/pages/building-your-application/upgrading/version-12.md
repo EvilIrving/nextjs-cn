@@ -5,19 +5,19 @@ description: 将您的 Next.js 应用程序从版本 11 升级到版本 12。
 
 要升级到版本 12，请运行以下命令：
 
-```bash filename="终端"
+```bash 
 npm i next@12 react@17 react-dom@17 eslint-config-next@12
 ```
 
-```bash filename="终端"
+```bash 
 yarn add next@12 react@17 react-dom@17 eslint-config-next@12
 ```
 
-```bash filename="终端"
+```bash 
 pnpm up next@12 react@17 react-dom@17 eslint-config-next@12
 ```
 
-```bash filename="终端"
+```bash 
 bun add next@12 react@17 react-dom@17 eslint-config-next@12
 ```
 
@@ -33,7 +33,7 @@ bun add next@12 react@17 react-dom@17 eslint-config-next@12
 
 [最小 React 版本](https://react.dev/learn/add-react-to-an-existing-project) - 最小所需的 React 版本是 `17.0.2`。要升级，您可以在终端中运行以下命令：
 
-```bash filename="终端"
+```bash 
 npm install react@latest react-dom@latest
 
 yarn add react@latest react-dom@latest

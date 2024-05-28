@@ -12,7 +12,7 @@ Vite 和 React Testing Library 经常一起用于**单元测试**。本指南将
 
 您可以使用 `create-next-app` 与 Next.js [with-vitest](https://github.com/vercel/next.js/tree/canary/examples/with-vitest) 示例快速开始：
 
-```bash filename="终端"
+```bash 
 npx create-next-app@latest --example with-vitest with-vitest-app
 ```
 
@@ -20,7 +20,7 @@ npx create-next-app@latest --example with-vitest with-vitest-app
 
 要手动设置 Vitest，请安装 `vitest` 和以下包作为开发依赖项：
 
-```bash filename="终端"
+```bash 
 npm install -D vitest @vitejs/plugin-react jsdom @testing-library/react
 # 或者
 yarn add -D vitest @vitejs/plugin-react jsdom @testing-library/react
@@ -186,7 +186,7 @@ test('Page', () => {
 
 然后，运行以下命令来运行你的测试：
 
-```bash filename="Terminal"
+```bash 
 npm run test
 # 或
 yarn test

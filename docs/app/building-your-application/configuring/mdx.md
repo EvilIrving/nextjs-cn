@@ -31,7 +31,7 @@ Next.js 可以支持你的应用内部的本地 MDX 内容，以及在服务器�
 
 安装这些包以使用 Next.js 渲染 MDX：
 
-```bash filename="终端"
+```bash 
 npm install @next/mdx @mdx-js/loader @mdx-js/react @types/mdx
 ```
 

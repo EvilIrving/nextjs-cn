@@ -54,19 +54,19 @@ module.exports = {
 
 </PagesOnly>
 
-```bash filename="终端"
+```bash 
 npm i sharp
 ```
 
-```bash filename="终端"
+```bash 
 yarn add sharp
 ```
 
-```bash filename="终端"
+```bash 
 pnpm add sharp
 ```
 
-```bash filename="终端"
+```bash 
 bun add sharp
 ```
 ## 须知

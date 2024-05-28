@@ -51,7 +51,7 @@ Create React App 仅使用客户端 React。仅客户端应用程序，也称为
 
 首先，你需要将 `next` 安装为依赖项：
 
-```bash filename="终端"
+```bash 
 npm install next@latest
 ```
 
@@ -321,7 +321,7 @@ import '../index.css'
 
 如果你正在使用Tailwind，你需要安装`postcss`和`autoprefixer`：
 
-```bash filename="终端"
+```bash 
 npm install postcss autoprefixer
 ```
 

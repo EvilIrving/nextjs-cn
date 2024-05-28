@@ -86,7 +86,7 @@ module.exports = {
 
 </PagesOnly>
 
-```bash filename="终端"
+```bash 
 next export -o outdir
 ```
 

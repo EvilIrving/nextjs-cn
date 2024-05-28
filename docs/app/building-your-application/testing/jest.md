@@ -12,7 +12,7 @@ Jest 和 React Testing Library 经常一起用于**单元测试**和**快照测�
 
 您可以使用 `create-next-app` 和 Next.js 的 [with-jest](https://github.com/vercel/next.js/tree/canary/examples/with-jest) 示例快速开始：
 
-```bash filename="终端"
+```bash 
 npx create-next-app@latest --example with-jest with-jest-app
 ```
 ## 手动设置
@@ -21,7 +21,7 @@ npx create-next-app@latest --example with-jest with-jest-app
 
 要设置 Jest，安装 `jest` 和以下包作为开发依赖：
 
-```bash filename="终端"
+```bash 
 npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
 # 或
 yarn add -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
@@ -31,7 +31,7 @@ pnpm install -D jest jest-environment-jsdom @testing-library/react @testing-libr
 
 通过运行以下命令生成一个基本的 Jest 配置文件：
 
-```bash filename="终端"
+```bash 
 npm init jest@latest
 # 或
 yarn create jest@latest
@@ -365,7 +365,7 @@ it('renders homepage unchanged', () => {
 
 然后，运行以下命令来运行您的测试：
 
-```bash filename="Terminal"
+```bash 
 npm run test
 # 或
 yarn test

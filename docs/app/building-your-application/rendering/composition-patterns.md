@@ -78,7 +78,7 @@ export async function getData() {
 
 要使用`server-only`，首先安装该包：
 
-```bash filename="Terminal"
+```bash 
 npm install server-only
 ```
 

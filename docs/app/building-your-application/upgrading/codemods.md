@@ -12,7 +12,7 @@ Next.js 提供了 Codemod 转换，以帮助在 API 更新或弃用时升级您�
 
 在终端中，导航（`cd`）到您项目的文件夹，然后运行：
 
-```bash filename="Terminal"
+```bash 
 npx @next/codemod <transform> <path>
 ```
 
@@ -31,7 +31,7 @@ npx @next/codemod <transform> <path>
 
 ##### `next-og-import`
 
-```bash filename="Terminal"
+```bash 
 npx @next/codemod@latest next-og-import .
 ```
 
@@ -53,7 +53,7 @@ import { ImageResponse } from 'next/og'
 
 ##### `metadata-to-viewport-export`
 
-```bash filename="Terminal"
+```bash 
 npx @next/codemod@latest metadata-to-viewport-export .
 ```
 
@@ -90,7 +90,7 @@ export const viewport = {
 
 ##### `built-in-next-font`
 
-```bash filename="Terminal"
+```bash 
 npx @next/codemod@latest built-in-next-font .
 ```
 
@@ -113,7 +113,7 @@ import { Inter } from 'next/font/google'
 
 ##### `next-image-to-legacy-image`
 
-```bash filename="终端"
+```bash 
 npx @next/codemod@latest next-image-to-legacy-image .
 ```
 
@@ -157,7 +157,7 @@ export default function Home() {
 
 ##### `next-image-experimental`
 
-```bash filename="终端"
+```bash 
 npx @next/codemod@latest next-image-experimental .
 ```
 
@@ -173,7 +173,7 @@ npx @next/codemod@latest next-image-experimental .
 
 ##### `new-link`
 
-```bash filename="终端"
+```bash 
 npx @next/codemod@latest new-link .
 ```
 
@@ -229,7 +229,7 @@ const Component = () => <a>About</a>
 
 ##### `cra-to-next`
 
-```bash filename="终端"
+```bash 
 npx @next/codemod cra-to-next
 ```
 
@@ -243,7 +243,7 @@ npx @next/codemod cra-to-next
 
 ##### `add-missing-react-import`
 
-```bash filename="终端"
+```bash 
 npx @next/codemod add-missing-react-import
 ```
 
@@ -275,7 +275,7 @@ export default class Home extends React.Component {
 
 ##### `name-default-component`
 
-```bash filename="终端"
+```bash 
 npx @next/codemod name-default-component
 ```
 
@@ -307,7 +307,7 @@ export default function MyComponent() {
 
 ##### `withamp-to-config`
 
-```bash filename="终端"
+```bash 
 npx @next/codemod withamp-to-config
 ```
 
@@ -344,7 +344,7 @@ export const config = {
 
 ##### `url-to-withrouter`
 
-```bash filename="终端"
+```bash 
 npx @next/codemod url-to-withrouter
 ```
 

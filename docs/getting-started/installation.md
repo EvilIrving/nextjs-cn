@@ -9,13 +9,13 @@
 
 我们建议使用 [`create-next-app`](/docs/app/api-reference/create-next-app) 开始一个新的Next.js应用程序，它会自动为您设置一切。要创建项目，请运行：
 
-```bash filename="Terminal"
+```bash 
 npx create-next-app@latest
 ```
 
 在安装过程中，您将看到以下提示：
 
-```txt filename="Terminal"
+```txt 
 您的项目名称是什么？my-app
 您想使用TypeScript吗？否 / 是
 您想使用ESLint吗？否 / 是
@@ -39,7 +39,7 @@ npx create-next-app@latest
 
 要手动创建一个新的Next.js应用程序，请安装所需的软件包：
 
-```bash filename="Terminal"
+```bash 
 npm install next@latest react@latest react-dom@latest
 ```
 

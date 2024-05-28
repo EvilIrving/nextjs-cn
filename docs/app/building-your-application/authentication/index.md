@@ -593,7 +593,7 @@ export default async function handler(req, res) {
 
 有几种方法可以生成用于签署会话的密钥。例如，您可以选择在终端中使用`openssl`命令：
 
-```bash filename="terminal"
+```bash 
 openssl rand -base64 32
 ```
 

@@ -70,7 +70,7 @@ export default function handler(req, res) {
 
 **其次**，如果您的无头CMS支持设置自定义预览URL，请将以下内容指定为预览URL。这假设您的预览API路由位于`pages/api/preview.js`。
 
-```bash filename="终端"
+```bash 
 https://<您的站点>/api/preview?secret=<令牌>&slug=<path>
 ```
 
@@ -158,7 +158,7 @@ export async function getStaticProps(context) {
 
 将此设置为您的无头 CMS 上的预览 URL 或手动访问，您应该能够看到预览。
 
-```bash filename="终端"
+```bash 
 https://<您的网站>/api/preview?secret=<token>&slug=<path>
 ```
 # More Details

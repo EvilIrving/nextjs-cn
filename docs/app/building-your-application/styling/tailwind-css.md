@@ -21,7 +21,7 @@ title: Tailwind CSS
 
 安装 Tailwind CSS 包并运行 `init` 命令以生成 `tailwind.config.js` 和 `postcss.config.js` 文件：
 
-```bash filename="终端"
+```bash 
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```

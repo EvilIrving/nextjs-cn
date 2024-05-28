@@ -8,25 +8,25 @@
 
 您可以通过运行以下命令以交互式方式创建新项目：
 
-```bash filename="终端"
+```bash 
 npx create-next-app@latest
 ```
 
-```bash filename="终端"
+```bash 
 yarn create next-app
 ```
 
-```bash filename="终端"
+```bash 
 pnpm create next-app
 ```
 
-```bash filename="终端"
+```bash 
 bun create next-app
 ```
 
 然后，系统会提示您回答以下问题：
 
-```txt filename="终端"
+```txt 
 项目名称是什么？ my-app
 是否使用 TypeScript？ 否 / 是
 是否使用 ESLint？ 否 / 是
@@ -46,7 +46,7 @@ bun create next-app
 
 查看 `create-next-app --help`：
 
-```bash filename="终端"
+```bash 
 用法：create-next-app <项目目录> [选项]
 
 选项：
